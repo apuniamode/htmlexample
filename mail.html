@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- META SECTION -->
+    <title>LaiciPay</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- END META SECTION -->
+
+    <!-- CSS INCLUDE -->
+    <link rel="stylesheet" type="text/css" id="theme" href="css/theme-default.css" />
+    <!-- EOF CSS INCLUDE -->
+    <link rel="stylesheet" type="text/css" id="theme" href="css/my.css" />
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+</head>
+
+<body>
+    <div class="col-md-6">
+        <div class="block">
+            <form method="GET" action="#" class="form-horizontal" role="form">
+
+                <div id="1" class="form-group">
+                    <h2 style="text-align: center;">Sponser Information</h2>
+                    <label class="col-md-3 control-label">Sponser ID:</label>
+                    <div class="col-md-9 " style="padding-top:1%">
+                        <input type="text" class="form-control" />
+                    </div>
+                    
+                    
+                    <label class="col-md-3 control-label">Sponser Name:</label>
+                    <div class="col-md-9" style="padding-top:1%">
+                        <input type="text" class="form-control" />
+                    </div>
+                    <label class="col-md-3 control-label">Position</label>
+                    <div class="col-md-9" style="padding-top:1%">
+                        <select>
+                            <option>Select Position</option>
+                            <option>Left</option>
+                            <option>Right</option>
+                        </select>
+
+                    </div>
+                    <div class="col-md-12" style="padding-top: 1%;display: inline-block">
+                           <p id="b1" class="btn btn-primary" >Next</p>
+                    </div>
+                </div>
+                <div id="2" class="form-group" style="display: none">
+                    <h2 style="text-align: center;">New User Information</h2>
+                    <label class="col-md-3 control-label">First Name:</label>
+                    <div class="col-md-9" style="padding-top:1%">
+                        <input type="text" class="form-control" />
+                    </div>
+                    <label class="col-md-3 control-label">Middle Name:</label>
+                    <div class="col-md-9" style="padding-top:1%">
+                        <input type="text" class="form-control" />
+                    </div>
+                    <label class="col-md-3 control-label">Last Name:</label>
+                    <div class="col-md-9" style="padding-top:1%">
+                        <input type="text" class="form-control" />
+                    </div>
+                    <label class="col-md-3 control-label">Date Of Birth</label>
+                    <div class="col-md-9" style="padding-top:1%">
+                        <div class="input-group date" id="dp-2" data-date="05-07-2014" data-date-format="dd-mm-yyyy">
+                            <input type="text" class="form-control" value="05-07-2014" disabled="disabled" />
+                            <span class="input-group-addon add-on"><span
+                                    class="glyphicon glyphicon-calendar"></span></span>
+                        </div>
+                    </div>
+                    <label class="col-md-3 control-label">Email:</label>
+                    <div class="col-md-9" style="padding-top:1%">
+                        <input type="email" class="form-control" />
+                    </div>
+                    <label class="col-md-3 control-label">Mobile No:</label>
+                    <div class="col-md-9" style="padding-top:1%">
+                        <input type="number" class="form-control" />
+                    </div>
+
+                    <div class="col-md-12" style="padding-top: 1%;display: inline-block">
+                        <p id="b2" class="btn btn-primary" style="float: left;">Priovious</p>
+                        <p id="b3" class="btn btn-primary" style="float: right;">Next</p>
+                    </div>
+                </div>
+                <div id="3" class="form-group" style="display: none">
+                    <h2 style="text-align: center;">UserName Submit</h2>
+                    <label class="col-md-3 control-label">UserName</label>
+                    <div class="col-md-9" style="padding-top:1%">
+                        <input type="text" class="form-control" />
+                    </div>
+                    <label class="col-md-3 control-label">Password:</label>
+                    <div class="col-md-9" style="padding-top:1%">
+                        <input type="text" class="form-control" />
+                    </div>
+                    <label class="col-md-3 control-label">Confirm Password:</label>
+                    <div class="col-md-9" style="padding-top:1%">
+                        <input type="text" class="form-control" />
+                    </div>
+                    <label class="col-md-12 check " style="text-align: center"><input type="checkbox"
+                            class="icheckbox" />I Accept Term And Condition</label>
+
+                            <div class="col-md-12" style="padding-top: 1%;display: inline-block">
+                                    <p id="b4" class="btn btn-primary" style="float: left;">Priovious</p>
+                                    <button id="b5" class="btn btn-primary" style="float: right;" type="submit">Submit</button>
+                                </div>
+                   
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <script>
+        
+
+    </script>
+    <!-- START SCRIPTS -->
+    <script type='text/javascript' src='js/plugins/icheck/icheck.min.js'></script>
+    <script type="text/javascript" src="js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
+    
+    <script type="text/javascript" src="js/plugins/bootstrap/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="js/plugins/bootstrap/bootstrap-timepicker.min.js"></script>
+    <script type="text/javascript" src="js/plugins/bootstrap/bootstrap-colorpicker.js"></script>
+    <script type="text/javascript" src="js/plugins/bootstrap/bootstrap-file-input.js"></script>
+    <script type="text/javascript" src="js/plugins/bootstrap/bootstrap-select.js"></script>
+    <script type="text/javascript" src="js/plugins/tagsinput/jquery.tagsinput.min.js"></script>
+    <!-- START PLUGINS -->
+    <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- END PLUGINS -->
+    
+
+</body>
+
+</html>

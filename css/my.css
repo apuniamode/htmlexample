@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.anyClass {
+  height:65%;
+  overflow-y: scroll;
+}
+
+.anyClass1 {
+  height:65%;
+  overflow-y: scroll;
+}
